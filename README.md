@@ -1,0 +1,2 @@
+# SetsCalc
+Calculadora de Conjuntos
