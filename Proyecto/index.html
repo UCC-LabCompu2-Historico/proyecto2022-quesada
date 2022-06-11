@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="">
+<head>
+  <link rel="icon" href="img/favicon.ico">
+  <meta charset="UTF-8">
+  <title>SetsCalc</title>
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Montserrat">
+  <script type="text/javascript" src='calculo.js'></script>
+  <script type="text/javascript" src='animacion.js'></script>
+  <script type="text/javascript" src='canvas.js'></script>
+</head>
+<body onload="setInterval(animacion1, 30)">
+<header>
+  <a id="set" href="index.html">SetsCalc</a>
+  <a id="h" href="help.html">Help</a>
+  |<a id="au" href="about.html">About Us</a>
+</header>
+<button id='cambiar' class='' onclick="location.href = 'index2.html'">Eliminar Conjunto</button>
+<br>
+<br>
+<div id="contenedor">
+  <canvas id="venn" width="600px" height="400px"></canvas>
+  <form name="conjuntos">
+    <br>
+    <a>U:</a><label for="U"></label><input type="number" id="U" name="U">
+    <br>
+    <a>A:</a><label for="A"></label><input type="number" id="A" name="A">
+    <a>&nbsp&nbspB:</a><label for="B"></label><input type="number" id="B" name="B">
+    <a>&nbsp&nbspC:</a><label for="C"></label><input type="number" id="C" name="C" style="width: 100px;">
+    <br>
+    <a>SA:</a><label for="SA"></label><input type="number" id="SA" name="SA" style="width: 198px;">
+    <a>SB:</a><label for="SB"></label><input type="number" id="SB" name="SB">
+    <a>SC:</a><label for="SC"></label><input type="number" id="SC" name="SC" style="width: 100px;">
+    <br>
+    <a>AB:</a><label for="AB"><input type="number" id="AB" name="AB" style="width: 196px;"></label>
+    <a>BC:</a><label for="BC"><input type="number" id="BC" name="BC"></label>
+    <a>AC:</a><label for="AC"><input type="number" id="AC" name="AC" style="width: 100px;"></label>
+    <br>
+    <a>ABC:</a><label for="ABC"><input type="number" id="ABC" name="ABC"></label>
+    <br>
+    <br>
+    <button id='calcular' class='' onclick="return calculo3()">Calcular</button>
+  </form>
+  <button id='limpiar' class='' onclick="limpiar3()">Limpiar</button>
+</div>
+</body>
+</html>
+
