@@ -1,3 +1,4 @@
+/*
 const canvas = document.getElementById('venn');
 const context = canvas.getContext('2d');
 const radius = 100;
@@ -8,7 +9,12 @@ const centerY2 = canvas.height / 1.6;
 const centerX3 = canvas.width / 2;
 const centerY3 = canvas.height / 2.8;
 context.globalAlpha = 0.5;
-
+*/
+/**
+ * Dibuja el canvas con 2 conjuntos
+ * @method dibujar2
+ */
+/*
 function dibujar2(){
 
   context.beginPath();
@@ -35,7 +41,12 @@ function dibujar2(){
   context.fillText("SB", 370, 200);
   context.fillText("AB", 285, 200);
 }
-
+*/
+/**
+ * Dibuja el canvas con 3 conjuntos
+ * @method dibujar3
+ */
+/*
 function dibujar3(){
 
   context.beginPath();
@@ -68,3 +79,4 @@ function dibujar3(){
   context.fillText("ABC", 275, 220);
   context.fillText("U", 15, 30);
 }
+*/

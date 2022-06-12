@@ -1,3 +1,8 @@
+/**
+ * Realiza los calculos para determinar los valores restantes de los 3 conjuntos
+ * @method calculo3
+ * @return false
+ */
 function calculo3 () {
 
   let U = document.getElementById('U').value;
@@ -172,7 +177,11 @@ function calculo3 () {
 
   return false;
 }
-
+/**
+ * Realiza los calculos para determinar los valores restantes de los 2 conjuntos
+ * @method calculo2
+ * @return false
+ */
 function calculo2() {
 
   let U = document.getElementById('U').value;
@@ -279,7 +288,10 @@ function calculo2() {
 
   return false;
 }
-
+/**
+ * Limpia los inputs de los 3 conjuntos
+ * @method limpiar3
+ */
 function limpiar3(){
   document.conjuntos.U.value = "";
   document.conjuntos.A.value = "";
@@ -293,7 +305,10 @@ function limpiar3(){
   document.conjuntos.AC.value = "";
   document.conjuntos.ABC.value = "";
 }
-
+/**
+ * Limpia los inputs de los 2 conjuntos
+ * @method limpiar2
+ */
 function limpiar2(){
   document.conjuntos.U.value = "";
   document.conjuntos.A.value = "";
@@ -302,6 +317,3 @@ function limpiar2(){
   document.conjuntos.SB.value = "";
   document.conjuntos.AB.value = "";
 }
-
-
-

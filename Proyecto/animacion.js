@@ -8,19 +8,10 @@ var centerY22 = 250;
 const centerX3 = 300;
 var centerY3 = -100;
 var centerY32 = 140;
-//var cont=0;
-
-/*function transcicion(){
-  if (cont === 0){
-    setInterval(animacion2, 30)
-    cont += 1;
-  }
-  else{
-    setInterval(animacion1, 30)
-    cont -= 1;
-  }
-}*/
-
+/**
+ * Realiza la animación de agregar el tercer conjunto
+ * @method animación1
+ */
 function animacion1(){
   const canvas = document.getElementById('venn');
   const context = canvas.getContext('2d');
@@ -71,9 +62,11 @@ function animacion1(){
     context.fillText("ABC", 275, 220);
     context.fillText("U", 15, 30);
   }
-
 }
-
+/**
+ * Realiza la animación de eliminar el tercer conjunto
+ * @method animación2
+ */
 function animacion2(){
   const canvas = document.getElementById('venn');
   const context = canvas.getContext('2d');
@@ -119,5 +112,4 @@ function animacion2(){
     context.fillText("AB", 285, 200);
     context.fillText("U", 15, 30);
   }
-
 }
