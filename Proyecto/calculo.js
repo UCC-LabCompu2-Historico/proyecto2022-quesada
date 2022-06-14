@@ -140,9 +140,6 @@ function calculo3 () {
       alert('Los valores ingresados no corresponden al valor de U establecido');
     }
   }
-  if ((SA+SB+SC+AB+AC+BC+ABC)!==U || ((A+B+C)-(AB+AC+BC+ABC)-(AB+AC+BC+ABC)-ABC)!==U || (SA+AC+AB+ABC)!==A || (SB+AB+BC+ABC)!==B || (SC+AC+BC+ABC)!==C){
-    alert('Los valores ingresados no son correctos');
-  }
   if (Uj<0 || Aj<0 || Bj<0 || Cj<0 || SAj<0 || SBj<0 || SCj<0 || ABj<0 || BCj<0 || ACj<0 || ABCj<0){
     alert('Los valores ingresados no corresponden a este tipo de conjuntos');
   }
@@ -260,9 +257,6 @@ function calculo2() {
     } else {
       alert('Los valores ingresados no corresponden al valor de U establecido');
     }
-  }
-  if ((A+B-AB)!==U || (SA+AB)!==A || (SB+AB)!==B || (SA+SB+AB)!==B){
-    alert('Los valores ingresados no son correctos');
   }
   if (Uj<0 || Aj<0 || Bj<0 || SAj<0 || SBj<0 || ABj<0){
     alert('Los valores ingresados no corresponden a este tipo de conjuntos');
