@@ -17,17 +17,51 @@ function calculo3 () {
   let AC = document.getElementById('AC').value;
   let ABC = document.getElementById('ABC').value;
 
-  let Uj = parseInt(document.getElementById('U').value);
-  let Aj = parseInt(document.getElementById('A').value);
-  let Bj = parseInt(document.getElementById('B').value);
-  let Cj = parseInt(document.getElementById('C').value);
-  let SAj = parseInt(document.getElementById('SA').value);
-  let SBj = parseInt(document.getElementById('SB').value);
-  let SCj = parseInt(document.getElementById('SC').value);
-  let ABj = parseInt(document.getElementById('AB').value);
-  let BCj = parseInt(document.getElementById('BC').value);
-  let ACj = parseInt(document.getElementById('AC').value);
-  let ABCj = parseInt(document.getElementById('ABC').value);
+  let Uj;
+  let Aj;
+  let Bj;
+  let Cj;
+  let SAj;
+  let SBj;
+  let SCj;
+  let ABj;
+  let BCj;
+  let ACj;
+  let ABCj;
+
+  if (U!==""){
+    Uj = parseInt(document.getElementById('U').value);
+  }
+  if (A!==""){
+    Aj = parseInt(document.getElementById('A').value);
+  }
+  if (B!==""){
+    Bj = parseInt(document.getElementById('B').value);
+  }
+  if (C!==""){
+    Cj = parseInt(document.getElementById('C').value);
+  }
+  if (SA!==""){
+    SAj = parseInt(document.getElementById('SA').value);
+  }
+  if (SB!==""){
+    SBj = parseInt(document.getElementById('SB').value);
+  }
+  if (SC!==""){
+    SCj = parseInt(document.getElementById('SC').value);
+  }
+  if (AB!==""){
+    ABj = parseInt(document.getElementById('AB').value);
+  }
+  if (BC!==""){
+    BCj = parseInt(document.getElementById('BC').value);
+  }
+  if (AC!==""){
+    ACj = parseInt(document.getElementById('AC').value);
+  }
+  if (ABC!==""){
+    ABCj = parseInt(document.getElementById('ABC').value);
+  }
 
   let cont = 0;
 
@@ -188,12 +222,31 @@ function calculo2() {
   let SB = document.getElementById('SB').value;
   let AB = document.getElementById('AB').value;
 
-  let Uj = parseInt(document.getElementById('U').value);
-  let Aj = parseInt(document.getElementById('A').value);
-  let Bj = parseInt(document.getElementById('B').value);
-  let SAj = parseInt(document.getElementById('SA').value);
-  let SBj = parseInt(document.getElementById('SB').value);
-  let ABj = parseInt(document.getElementById('AB').value);
+  let Uj;
+  let Aj;
+  let Bj;
+  let SAj;
+  let SBj;
+  let ABj;
+
+  if (U!==""){
+    Uj = parseInt(document.getElementById('U').value);
+  }
+  if (A!==""){
+    Aj = parseInt(document.getElementById('A').value);
+  }
+  if (B!==""){
+    Bj = parseInt(document.getElementById('B').value);
+  }
+  if (SA!==""){
+    SAj = parseInt(document.getElementById('SA').value);
+  }
+  if (SB!==""){
+    SBj = parseInt(document.getElementById('SB').value);
+  }
+  if (AB!==""){
+    ABj = parseInt(document.getElementById('AB').value);
+  }
 
   let cont = 0;
 
