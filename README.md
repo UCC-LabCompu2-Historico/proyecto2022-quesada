@@ -1,5 +1,5 @@
 # SetsCalc
-Calculadora de Conjuntos [SetsCalc](https://ucc-labcompu2.github.io/proyecto2022-quesada/Proyecto/index.html)
+Calculadora de Conjuntos [SetsCalc](https://ucc-labcompu2-Historico.github.io/proyecto2022-quesada/Proyecto/index.html)
 
 ## **Autor**
 Santiago Quesada
